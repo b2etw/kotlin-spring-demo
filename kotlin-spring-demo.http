@@ -1,0 +1,12 @@
+### add user
+POST http://localhost:8080/v1/user
+Content-Type: application/json
+
+{
+  "account": "vincent",
+  "password": "123456"
+}
+
+### query user
+GET http://localhost:8080/v1/user?account=vincent
+Accept: application/json
